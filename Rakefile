@@ -8,14 +8,14 @@ require 'bundler'
 spec = Gem::Specification.new do |s|
   s.name     = "bundler"
   s.version  = Bundler::VERSION
-  s.authors  = ["Carl Lerche", "Yehuda Katz", "André Arko"]
+  s.authors  = ["Carl Lerche", "Yehuda Katz", "André Arko", "Yukio Goto"]
   s.email    = ["carlhuda@engineyard.com"]
   s.homepage = "http://github.com/carlhuda/bundler"
   s.summary  = "Bundles are fun"
 
   s.platform = Gem::Platform::RUBY
 
-  s.required_rubygems_version = ">= 1.3.6"
+  s.required_rubygems_version = ">= 1.3.5"
 
   s.files        = Dir.glob("{bin,lib}/**/*") + %w(LICENSE README.md ROADMAP.md CHANGELOG.md)
   s.executables  = ['bundle']
